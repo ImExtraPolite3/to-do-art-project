@@ -1,0 +1,8 @@
+.row {
+  display: flex;
+}
+
+label {
+  display: flex;
+  flex-direction: row-reverse;
+}
