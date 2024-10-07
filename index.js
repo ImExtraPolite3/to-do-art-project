@@ -57,6 +57,7 @@ function createChecklist() {
     checkBox.setAttribute('type', 'checkbox');
     checkBox.setAttribute('name', 'label' + index);
     checkBox.id = 'label' + index;
+    checkBox.style.width = '20px';
     label.appendChild(checkBox);
   });
 }
