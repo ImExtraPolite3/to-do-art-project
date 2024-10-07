@@ -25,32 +25,23 @@ h1 {
   font-size: 2.5rem;
 }
 
-#row-one {
+#row-one,
+#row-seven {
   animation: leftToRight 40000ms infinite linear;
 }
 
-#row-two {
-  animation: rightToLeft 30000ms infinite linear;
-}
-
-#row-three {
-  animation: leftToRight 30000ms infinite linear;
-}
-
+#row-two,
 #row-four {
   animation: rightToLeft 30000ms infinite linear;
 }
 
+#row-three,
 #row-five {
   animation: leftToRight 30000ms infinite linear;
 }
 
 #row-six {
   animation: rightToLeft 40000ms infinite linear;
-}
-
-#row-seven {
-  animation: leftToRight 40000ms infinite linear;
 }
 
 @keyframes leftToRight {
