@@ -1,10 +1,10 @@
 section {
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
 }
 
 .row {
-  width: 200%;
+  width: 5000px;
   display: flex;
   margin: 10px 0;
 }
@@ -23,4 +23,56 @@ h1 {
 
 .row > label {
   font-size: 2.5rem;
+}
+
+#row-one {
+  animation: leftToRight 40000ms infinite linear;
+}
+
+#row-two {
+  animation: rightToLeft 30000ms infinite linear;
+}
+
+#row-three {
+  animation: leftToRight 30000ms infinite linear;
+}
+
+#row-four {
+  animation: rightToLeft 30000ms infinite linear;
+}
+
+#row-five {
+  animation: leftToRight 30000ms infinite linear;
+}
+
+#row-six {
+  animation: rightToLeft 40000ms infinite linear;
+}
+
+#row-seven {
+  animation: leftToRight 40000ms infinite linear;
+}
+
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-80vw);
+  }
+  50% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-80vw);
+  }
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(80vw);
+  }
+  50% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(80vw);
+  }
 }
